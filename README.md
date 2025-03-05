@@ -19,6 +19,7 @@ Make sure you have the following installed:
 - **CMake** (for build configuration)
 - **GLFW** (for window and input handling)
 - **GLAD** (for OpenGL function loading)
+- **GLM** (for OpenGL math)
 - **MinGW-w64** (if on Windows)
 
 ### **Building the Engine**
@@ -31,7 +32,7 @@ make
 
 ### **Running a Demo**
 ```sh
-./game_engine_demo
+./opengl.exe
 ```
 
 ## Folder Structure
@@ -41,8 +42,7 @@ make
 │   ├── Renderer/        # Rendering system
 │   ├── Shaders/         # Shader management
 │   ├── Textures/        # Texture handling
-│   ├── Physics/         # (Planned) Physics engine
-│   └── Game/            # Example game implementation
+│   └── Physics/         # (Planned) Physics engine
 ├── include/             # Header files
 ├── res/              # Textures, models, shaders
 ├── CMakeLists.txt       # Build system
